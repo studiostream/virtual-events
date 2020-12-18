@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-export const SITE_URL = 'https://demo.vercel.events';
+export const SITE_URL = 'https://studio-stream-virtual-event.studiostream.vercel.app';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
-export const TWITTER_USER_NAME = 'vercel';
+export const TWITTER_USER_NAME = 'studiostream';
 export const BRAND_NAME = 'ACME';
 export const SITE_NAME_MULTILINE = ['ACME', 'Conf'];
 export const SITE_NAME = 'ACME Conf';
